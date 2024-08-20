@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TAMU Caving Club - Responsive Landing Page &amp; Multiple Modals</title>
+  <link rel="stylesheet" href="./officer_page_style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <section id="intro">
+    <div class="info">
+      <h1>Member Spotlight</h1>
+      <p>
+        This club is home to some of the most amazing (and weird) people
+        in Aggieland! Come see what they've been up to this past semester
+        in this interactive spotlight page. Don't be intimidated by their 
+        skills, this club is a safe and welcoming place for all!
+      </p>
+      <a href="#content" class="button explore">Explore</a>
+    </div>
+    <div class="split-title-image">
+      <img
+        class="title-image"
+        src="images/cavesoftly1.png" />
+      <img
+        class="title-image"
+        src="images/cavesoftly2.png" />
+      <img
+        class="title-image"
+        src="images/cavesoftly3.png" />
+    </div>
+  </section>
+
+  <section id="content">
+    <!-- Cards -->
+    <div class="card">
+      <img class="card-img" src="images/jakob2.jpg" />
+      <div class="title">
+        <h2>Jakob Denton</h2>
+      </div>
+      <div class="more">
+        <button class="modal-open" data-modal="modal1">
+          more<ion-icon
+            class="open-icon"
+            name="open-outline"
+            aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images/caleb1.png" />
+      <div class="title">
+        <h2>Caleb Crabuegh</h2>
+      </div>
+      <div class="more">
+        <button class="modal-open" data-modal="modal2">
+          more<ion-icon
+            class="open-icon"
+            name="open-outline"
+            aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images/jenna.png" />
+      <div class="title">
+        <h2>Jenna Crabtree</h2>
+      </div>
+      <div class="more">
+        <button class="modal-open" data-modal="modal3">
+          more<ion-icon
+            class="open-icon"
+            name="open-outline"
+            aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images/josie.jpg" />
+      <div class="title">
+        <h2>Josephine Shaw</h2>
+      </div>
+      <div class="more"> 
+        <button class="modal-open" data-modal="modal4">
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">more</a><ion-icon
+            class="open-icon"
+            name="open-outline"
+            aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images/john.png" />
+      <div class="title">
+        <h2>John Peiperato</h2>
+      </div>
+      <div class="more">
+        <button class="modal-open" data-modal="modal5">
+          more<ion-icon
+            class="open-icon"
+            name="open-outline"
+            aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img" src="images/russel2.jpg" />
+      <div class="title">
+        <h2>Mr. Russel</h2>
+      </div>
+      <div class="more">
+        <button class="modal-open" data-modal="modal6">
+          more<ion-icon
+            class="open-icon"
+            name="open-outline"
+            aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal" id="modal1">
+      <div class="modal-content">
+        <div class="modal-header">
+          The resident spel-HUNK-er 
+        </div>
+        <div class="modal-body">
+          <img src="images/jakob2.jpg" alt="" />
+          <ul>
+            <p style="margin-bottom: 20px;">The basics of Jakob:</p>
+            <style>
+              li {
+              margin-left: 20px;
+              }
+            </style>
+            <li>
+              He is graduating this year to go on to do incredible things
+            </li>
+            <li>
+              He is leaving us...
+            </li>
+            <li>
+              HE IS LEAVING US
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="button close-btn modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal2">
+      <div class="modal-content">
+        <div class="modal-header">
+          Cave Jesus Demonstrates How To Turn Water Into Wine
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="images/caleb2.jpg" alt="" />
+          <p><i>"Only inebriated does the road to salvation reveal itself (your keys)"</i></p>
+          <p><em>Calebinthians 3:15</em></p>
+          <style>
+            ul {
+              margin-top: 20px;
+              margin-left: 20px;
+            }
+          </style>
+          <ul>
+            <p>
+              To do this trick you need three things: water, wine, and a crowd. 
+              While no one is looking, swap out the water for the wine... yeah, it's 
+              that simple. Did you seriously expect him to perform a miracle?!
+            </p>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="button close-btn modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal3">
+      <div class="modal-content">
+        <div class="modal-header">
+          Orange Ya Glad She Didn't Eat One
+        </div>
+        <div class="modal-body">
+          <img src="images/orange.jpg" alt="" />
+          <ul>
+            <p>Some say she isn't even allergic</p>
+            <p>...only one way to find out >:]</p>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="button close-btn modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal4">
+      <div class="modal-content">
+        <div class="modal-header">
+          Josephine Shaw
+        </div>
+        <div class="modal-body">
+          <img src="images/josie2.jpg" alt="" />
+          <ul>
+            <p><i>"I love ASS because it's given me a space to relax
+              and have fun with amazing people while staying actiive 
+              and exploring a new passion"
+            </i></p>
+            <p style="margin-top: 20px;">
+              Meet Josie! Want to talk rockets? Rocks? All things rigging? Josie's 
+              the right person to chat with then! See her every Thursday in HEB
+            </p>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="button close-btn modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal5">
+      <div class="modal-content">
+        <div class="modal-header">
+          Listen up! Vote For John
+        </div>
+        <div class="modal-body">
+          <img src="images/johnart.png" alt="" />
+          <ul>
+            <p>Kim Jong Un, Stalin, John. All three of these men ran unapposed.
+              Though he may like Chainsawman and be from New York, he is still a 
+              great guy who will ensure this club never has any <i>documented</i> caving 
+              accidents. So vote John for <b>Safety Officer</b>! </p>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="button close-btn modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal6">
+      <div class="modal-content">
+        <div class="modal-header">
+          Fighting The Good Fight
+        </div>
+        <div class="modal-body">
+          <img src="images/russel3.jpg" alt="" />
+          <ul>
+            <p style="margin-left: 130px;"><em>"Good soldiers follow orders"</em></p>
+            <p style="margin-top: 20px; margin-left: 20px;">
+              Meet the man, the myth, the legend Russel! Not only is 
+              he an excellant caver but he also volunteers at the Museum of 
+              The American GI as a tank gunner. 
+            </p>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button class="button close-btn modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Wow you made it all the way down here?! Well clearly you liked what
+      you saw so come to our meetings every Thursday from 8:00 to 9:00 in HEB
+    </p>
+  </footer>
+</body>
+<!-- partial -->
+  <script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
