@@ -3,15 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>TAMU Caving Club - Responsive Landing Page &amp; Multiple Modals</title>
-  <link rel="stylesheet" href="./officer_page_style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><link rel="stylesheet" href="./officer_page_style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
+
 <body>
+  <header>
+    <a href="#"
+      ><img
+        src="https://github.com/ecemgo/today-i-learned-app/assets/13468728/4f2923ea-9eca-4221-8b18-7198f78fd04e"
+        alt="logo"
+        class="logo"
+    /></a>
+
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons">
+      <i class="bx--menu" id="menu-icon"></i>
+      <i class="bx-x" id="close-icon"></i>
+    </label>
+    <nav class="navbar">
+      <!--replace href=# with the page you want to redirect to-->
+      <a href="index.html" class="nav-item" style="--i: 0">Home</a>
+      <a href="officer_page.html" class="nav-item" style="--i: 1">Officers</a>
+      <a href="calendar_page.html" class="nav-item" style="--i: 2">Caving Calendar</a>
+      <a href="#" class="nav-item" style="--i: 3">Trip Reports</a>
+    </nav>
+  </header>
+  
   <section id="intro">
     <div class="info">
-      <h1>Member Spotlight</h1>
+      <h1>Officer Spotlight</h1>
       <p>
         This club is home to some of the most amazing (and weird) people
         in Aggieland! Come see what they've been up to this past semester
