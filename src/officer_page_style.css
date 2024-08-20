@@ -24,6 +24,9 @@ body {
   background-repeat: no-repeat;
 }
 
+p {
+  text-align: center;
+}
 /* ------ */
 /* INTRO */
 
