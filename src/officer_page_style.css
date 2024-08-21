@@ -334,7 +334,7 @@ body.prevent-background-scroll {
   justify-content: flex-start;
   align-items: center;
   padding: 30px 50px;
-  height: 40vh;
+  height: 70vh; /*changes height of box*/
   overflow-y: auto;
 }
 
