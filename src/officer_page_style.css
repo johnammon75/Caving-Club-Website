@@ -108,7 +108,8 @@ p {
   position: relative;
   border-radius: 10px;
   text-decoration: none;
-  padding: 0.8rem 2rem;
+  padding: 1em 2em;
+  text-align: center;
   font-size: 1rem;
   font-weight: bold;
   border: none;
@@ -399,6 +400,48 @@ footer > p {
   }
 }
 
+@media (max-width: 990px) {
+  #intro {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "split-title-image"
+      "info";
+  }
+
+  .info {
+    grid-area: info;
+  }
+
+  .split-title-image {
+    grid-area: split-title-image;
+    margin: 1.25em auto;
+  }
+
+  .title-image {
+    width: 31%;
+  }
+
+  .button {
+    padding: 1em 2em;
+  }
+
+  #content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2.5em 2.5em;
+  }
+  .card {
+    width: 30em;
+  }
+
+  footer {
+    padding: 1.25em 1.875em 3.75em;
+  }
+
+  footer > p {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 800px) {
   #intro {
     padding: 1.875em;
@@ -419,6 +462,10 @@ footer > p {
 
   .info p {
     font-size: 1rem;
+  }
+
+  .button {
+    padding: 0.8rem 2rem;
   }
 
   #content {
@@ -442,42 +489,6 @@ footer > p {
     font-size: 1.1rem;
   }
 }
-
-@media (max-width: 550px) {
-  #intro {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas:
-      "split-title-image"
-      "info";
-  }
-
-  .info {
-    grid-area: info;
-  }
-
-  .split-title-image {
-    grid-area: split-title-image;
-    margin: 1.25em auto;
-  }
-
-  .title-image {
-    width: 6.25em;
-  }
-
-  #content {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 2.5em 2.5em;
-  }
-
-  footer {
-    padding: 1.25em 1.875em 3.75em;
-  }
-
-  footer > p {
-    font-size: 1rem;
-  }
-}
-
 /* HEADER */
 header {
   position: fixed;
