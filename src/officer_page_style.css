@@ -445,6 +445,7 @@ footer > p {
 
 @media (max-width: 800px) {
   #intro {
+    min-height: 100dvh;
     padding: 1.875em;
   }
 
