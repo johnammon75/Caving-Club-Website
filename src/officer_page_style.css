@@ -402,6 +402,7 @@ footer > p {
 
 @media (max-width: 990px) {
   #intro {
+    min-height: 80dvh;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "split-title-image"
@@ -427,7 +428,7 @@ footer > p {
 
   #content {
     grid-template-columns: repeat(1, 1fr);
-    padding: 2.5em 2.5em;
+    padding: 10.5em 2.5em;
   }
   .card {
     width: 30em;
