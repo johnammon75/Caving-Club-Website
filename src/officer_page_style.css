@@ -434,6 +434,10 @@ footer > p {
     width: 30em;
   }
 
+  .modal-body {
+    height: fit-content; /*changes height of box*/
+  }
+
   footer {
     padding: 1.25em 1.875em 3.75em;
   }
@@ -481,6 +485,10 @@ footer > p {
 
   .modal-content {
     width: 80%;
+  }
+
+  .modal-body {
+    height: 70vh; /*changes height of box*/
   }
 
   footer {
