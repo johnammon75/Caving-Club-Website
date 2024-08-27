@@ -292,7 +292,7 @@ body.prevent-background-scroll {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: 600;
   padding: 1em 1.25em 0.625em;
@@ -348,6 +348,10 @@ body.prevent-background-scroll {
   margin-bottom: 1.25em;
 }
 
+.modal-text {
+  text-align: left;
+  margin-bottom:0.5em;
+}
 .modal-footer {
   display: flex;
   justify-content: center;
@@ -435,6 +439,10 @@ footer > p {
     width: 30em;
   }
 
+  .modal-content {
+    width: 70%;
+  }
+  
   .modal-body {
     height: fit-content; /*changes height of box*/
   }
